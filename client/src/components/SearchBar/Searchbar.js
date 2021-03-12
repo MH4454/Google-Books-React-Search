@@ -4,7 +4,7 @@ import "./Searchbar.css"
 const Searchbar = () => {
     return (
         <>
-    <div className="container">
+    <div className="container border p-3">
         <div className="row">
             <div className="col"><h3>Book Search</h3></div>
         </div>
@@ -13,7 +13,7 @@ const Searchbar = () => {
         </div>
         <div className="row">
             <div className="col">
-            <input className="form-control" type="text" placeholder="Default input"></input>
+            <input className="form-control" type="text" placeholder="Book Title:"></input>
             </div>
         </div>
         <div className="row mt-4">
